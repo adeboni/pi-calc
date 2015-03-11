@@ -3,7 +3,7 @@
 ===========
 Some info:  <br/>
 In this implementation, all channels are global. Thus, it is not possible to send a channel through another channel.
-Also, there are probably some bugs if you try to do complicated combinations of reads and writes.
+It is also not possible to do replication, since this would almost always cause a stack overflow.
 
 Possible π commands: <br/>
 new(a,b,c...) - creates channel <br/>
