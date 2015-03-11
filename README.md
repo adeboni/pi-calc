@@ -9,9 +9,9 @@ new(a,b,c...) - creates channel <br/>
 print(x,y,z,...) or print("...", '...', ...) - prints variable content or string literal <br/>
 a?x or a?(x,y,z,...) - reads from channel into variable(s) <br/>
 a!"..." or a!x or a!("...", '...', ...) or a!(x,y,z,...) - writes variable(s) to channel <br/>
-<command1> . <command2> - runs command1 then command2 <br/>
-<command1> | <command2> - runs command1 and command2 at once <br/>
-<command1> + <command2> - runs command1 or command2 (random 50/50 chance) <br/>
+Command1 . Command2 - runs Command1 then Command2 <br/>
+Command1 | Command2 - runs Command1 and Command2 at once <br/>
+Command1 + Command2 - runs Command1 or Command2 (random 50/50 chance) <br/>
 
 In addition to π commands, the interpreter can accept additional commands, listed below. <br/>
 clear - reset interpreter to initial state (deletes channels and declared methods) <br/>
