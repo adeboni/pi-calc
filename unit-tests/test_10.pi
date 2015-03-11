@@ -1,0 +1,5 @@
+A = print(x)
+B = a?x
+C = a!"Hello"
+D = new(a)
+A | B | C | D

@@ -1,0 +1,3 @@
+new(a)
+a?x . print(x)
+a!"Hello"

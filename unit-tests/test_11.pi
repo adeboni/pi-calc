@@ -1,0 +1,4 @@
+Printer = a?doc . print(doc) . Printer
+new(a) . Printer
+a!"Hello"
+a!"World"

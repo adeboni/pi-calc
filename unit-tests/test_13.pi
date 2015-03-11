@@ -1,0 +1,4 @@
+new(a,b)
+a!"Hello"
+a?x . b!x
+b?y . print(y)
