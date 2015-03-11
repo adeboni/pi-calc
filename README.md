@@ -25,3 +25,7 @@ g++ -o picalc picalc.cpp
 ===========
 Running unit tests: <br/>
 ./test.sh
+
+===========
+Code explanation: <br/>
+When a string is entered, an expression tree is created and then run according to the rules listed above.
